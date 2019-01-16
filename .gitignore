@@ -1,3 +1,11 @@
+.idea
+json_store.iml
+target
+.DS_Store
+dependency-reduced-pom.xml
+neo4j-enterprise-3.5.1/
+*.dat
+
 # Compiled class file
 *.class
 
