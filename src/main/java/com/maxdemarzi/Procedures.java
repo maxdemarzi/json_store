@@ -65,7 +65,7 @@ public class Procedures {
                 nodeProperties = ChronicleMap
                         .of(LongValue.class, CharSequence.class)
                         .name("json-properties-map")
-                        .entries(1_000_000)
+                        .entries(10_000_000)
                         .averageValue(objectMapper.writeValueAsString(averageProperties))
                         .createPersistedTo(nodeFile);
             } catch (IOException e) {
@@ -86,5 +86,43 @@ public class Procedures {
             put("nested2", "Nested String Property");
             put("nested3", "Nested String Property two");
         }});
+        put("prop7", "String Property");
+        put("prop8", "String Property");
+        put("prop9", "String Property");
+        put("prop10", "String Property");
+        put("prop11", "String Property");
+        put("prop12", "String Property");
+        put("prop13", "String Property");
+        put("prop14", "String Property");
+        put("prop15", "String Property");
+        put("prop16", "String Property");
+        put("prop17", "String Property");
+        put("prop18", "String Property");
+        put("prop19", "String Property");
+        put("prop20", "String Property");
+        put("prop21", "String Property");
+        put("prop22", "String Property");
+        put("prop23", "String Property");
+        put("prop24", "String Property");
+        put("prop25", "String Property");
+        put("prop26", "String Property");
+        put("prop27", "String Property");
+        put("prop28", "String Property");
+        put("prop29", "String Property");
+        put("prop30", "String Property");
+        put("prop31", "String Property");
+        put("prop32", "String Property");
+        put("prop33", "String Property");
+        put("prop34", "String Property");
+        put("prop35", "String Property");
+        put("prop36", "String Property");
+        put("prop37", "String Property");
+        put("prop38", "String Property");
+        put("prop39", "String Property");
+        put("prop40", "String Property");
+        put("prop41", "String Property");
+
+
+
     }};
 }
